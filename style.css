@@ -10,6 +10,8 @@ body {
 
 section {
   width: 100%;
+  height: 500px;
+  overflow: hidden;
 }
 
 h1 {
@@ -22,6 +24,21 @@ p {
   line-height: 150%;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 .highlighter {
   color: orangered;
+}
+
+.half-width {
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+}
+
+.text-area {
+  padding: 5%;
 }
